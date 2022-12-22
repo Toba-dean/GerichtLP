@@ -1,3 +1,11 @@
+.app__bg {
+  background: url('./assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
 .p__opensans {
   font-family: var(--font-alt);
   color: var(--color-white);
@@ -34,6 +42,11 @@
   margin-left: 2rem;
 }
 
+.app__wrapper_img-reverse {
+  justify-content: flex-start;
+  margin-right: 2rem;
+}
+
 .app__wrapper_img img {
   width: 80%;
 }
@@ -54,6 +67,15 @@
   font-size: 23px;
 }
 
+.headtext__cormorant {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
 .custom__button {
   background-color: var(--color-crimson);
   color: var(--color-black);
@@ -69,9 +91,12 @@
   cursor: pointer;
 }
 
-
+.custom__button:hover {
+  background-color: var(--color-golden);
+}
 
 @media screen and (min-width: 2000px) {
+
   .custom__button,
   .p__cormorant {
     font-size: 37px;
