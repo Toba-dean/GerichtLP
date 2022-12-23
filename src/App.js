@@ -1,6 +1,6 @@
 import './App.css';
 import { NavBar } from './components';
-import { Header, About, Menu, Chef } from './container';
+import { Header, About, Menu, Chef, Intro } from './container';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <About />
       <Menu />
       <Chef />
+      <Intro />
     </>
   );
 }
