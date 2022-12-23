@@ -23,7 +23,7 @@ const Navbar = () => {
     },
     {
       name: "Awards",
-      path: "#award"
+      path: "#awards"
     },
     {
       name: "Contact",
