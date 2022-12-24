@@ -6,3 +6,4 @@ export { default as Intro } from "./intro";
 export { default as Laurels } from "./Laurels";
 export { default as Gallery } from "./Gallery";
 export { default as FindUs } from "./findus";
+export { default as Footer } from "./footer";

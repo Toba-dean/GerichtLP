@@ -1,3 +1,11 @@
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--color-black);
+}
+
 .app__bg {
   background: url('./assets/bg.png');
   background-position: center;
@@ -105,7 +113,6 @@
 }
 
 @media screen and (min-width: 2000px) {
-
   .custom__button,
   .p__cormorant {
     font-size: 37px;
@@ -152,10 +159,6 @@
 }
 
 @media screen and (max-width: 650px) {
-  /* .section__padding {
-    padding: 4rem 2rem;
-  } */
-
   .p__cormorant {
     font-size: 21px;
   }

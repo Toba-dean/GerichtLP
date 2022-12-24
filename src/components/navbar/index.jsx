@@ -82,7 +82,11 @@ const Navbar = () => {
               <ul className="app__navbar-smallscreen_link">
                 {
                   navData.map((item, idx) => (
-                    <li className="p__opensans" key={idx}>
+                    <li 
+                      className="p__opensans" 
+                      key={idx} 
+                      onClick={() => setToggleMenu(false)}
+                    >
                       <a href={item.path}>{item.name}</a>
                     </li>
                   ))
